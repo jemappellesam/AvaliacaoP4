@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+body{
+    background-color: rgb(110, 182, 185);
+  
+}
+.container{
+    font-family: Teko;
+    color: white;
+    text-align: center;
+    font-size: 65px;   
+
+}
+.line{
+    background-color: white;
+    width: 855px;
+    border-bottom: 1px solid;
+    margin-left: 310px;
+}
+.sub-container {
+    display: flex;
+    max-width: 300px; 
+    margin: auto;
+    padding: 20px;
+    
+    
+  }
+
+  .input-text {
+    border: none;
+    width: 60%; 
+    width: 700px;
+    height: 50px;
+ 
+  }
+
+  .btn {
+    width: 30%; 
+    color: blue;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    
+  }
+
+  .items{
+    justify-content: center;
+    margin-left: 18px;
+  }
+
+.NovoItemLista{
+ display: flex;
+ margin-left: 310px;
+ width: 830px;
+ height: 50px;
+ padding-left: 25px;
+ padding-bottom: 10px;
+ background-color: white;
+ color: black;
+ font-size:40px;
+ text-align: left;
+ margin-bottom: 20px;
+}
+
+
+.deleteButton{
+    color: red;
+    background-color: white;
+    border: none;
+    height: 60px;
+    cursor: pointer;
+}
+
+.alingContent{
+    display: flex;
+}
+
